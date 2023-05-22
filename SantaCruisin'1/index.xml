@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml_name SYSTEM "path_to_DTD_file" [
+	<!ELEMENT SantaCruizin' (Photos, About, Contact)>
+	<!ELEMENT Photos (Albums)>
+	<!ELEMENT Albums (Road-Trip, Offroad-Trip, Fresh-Air, Cave, Camp-sight, Falls, Beaches, Beach-Resorts, Restaurants, Swimming-Pool-Resorts, Sea-side-view, Sunset-view )>
+    <!ELEMENT Road-Trip (Dampulan-Road)>
+    <!ELEMENT Offroad-Trip (Haynon-Hills)>
+    <!ELEMENT Fresh-Air (Timbo-Integrated-Farm, Makulilis-Peak, Luzon-Datum)>
+    <!ELEMENT Cave (Bathala-Cave)>
+    <!ELEMENT Camp-sight-Trip (Ino-Camping-Sight, La-Presa)>
+    <!ELEMENT Falls (Hinulugang-Amerikano, Makulapnit Falls)>
+    <!ELEMENT Beaches (Dapdap-Beach, Gaspar-Beach, Poctoy-Beach)>
+    <!ELEMENT Beach-Resorts (Flintstone-Beach-Resort, Wawies-Beach-Resort)>
+    <!ELEMENT Restaurants (Ate-Brys-Smoothies-and-Snack-house, Dayo)>
+    <!ELEMENT Swimming-Pool-Resorts (Janagdong-Swimming-Pool, Marinduque-Hotspring)>
+    <!ELEMENT Sea-side-view (Balanacan-Port)>
+    <!ELEMENT Sunset-view (Along-the-Road, Ulong-Beach)>
+    <!ELEMENT About (About-Imahe-Marinduke-Website, Other-information, Whats-inside, Visitors)>
+    <!ELEMENT Contact (Name, Position)>
+	<!ELEMENT Photos (#PCDATA)>
+	<!ELEMENT About (#PCDATA)>
+	<!ELEMENT Contact (#PCDATA)>
+	<!ELEMENT Albums (#PCDATA)>
+	<!ELEMENT Dampulan-Road (#PCDATA)>
+	<!ELEMENT Offroad-Trip (#PCDATA)>
+	<!ELEMENT Haynon-Hills (#PCDATA)>
+	<!ELEMENT Fresh-Air (#PCDATA)>
+	<!ELEMENT Timbo-Integrated-Farm (#PCDATA)>
+	<!ELEMENT Makulilis-Peak (#PCDATA)>
+	<!ELEMENT Luzon-Datum (#PCDATA)>
+	<!ELEMENT Cave (#PCDATA)>
+	<!ELEMENT Bathala-Cave (#PCDATA)>
+	<!ELEMENT Camp-sight (#PCDATA)>
+	<!ELEMENT Ino-Camping-Sight (#PCDATA)>
+	<!ELEMENT La-Presa (#PCDATA)>
+	<!ELEMENT Falls (#PCDATA)>
+	<!ELEMENT Hinulugang-Amerikano (#PCDATA)>
+	<!ELEMENT Tabag-Falls (#PCDATA)>
+	<!ELEMENT Beaches (#PCDATA)>
+	<!ELEMENT Dapdap-Beach (#PCDATA)>
+	<!ELEMENT Gaspar-Beach (#PCDATA)>
+	<!ELEMENT Poctoy-Beach (#PCDATA)>
+	<!ELEMENT Beach-Resorts (#PCDATA)>
+	<!ELEMENT Flintstone-Beach-Resort (#PCDATA)>
+	<!ELEMENT Wawies-Beach-Resort (#PCDATA)>
+	<!ELEMENT Restaurants (#PCDATA)>
+	<!ELEMENT Ate-Brys-Smoothies-and-Snack-house (#PCDATA)>
+	<!ELEMENT Dayo (#PCDATA)>
+	<!ELEMENT Swimming-Pool-Resorts (#PCDATA)>
+	<!ELEMENT Janagdong-Swimming-Pool (#PCDATA)>
+	<!ELEMENT Marinduque-Hotspring (#PCDATA)>
+	<!ELEMENT Sea-side-view (#PCDATA)>
+	<!ELEMENT Balanacan-Port (#PCDATA)>
+	<!ELEMENT Sunset-view (#PCDATA)>
+	<!ELEMENT Along-the-Road (#PCDATA)>
+	<!ELEMENT Ulong-Beach (#PCDATA)>
+	<!ELEMENT About-SantaCruizn'-Website (#PCDATA)>
+    <!ELEMENT Other-information (#PCDATA)>
+    <!ELEMENT Whats-inside (#PCDATA)>
+    <!ELEMENT Visitors (#PCDATA)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Position (#PCDATA)>
+]>
+
+<SantaCruizin>
+	<Photos>
+		<Albums>
+
+			<Offroad-Trip>Haynon-Hills</Offroad-Trip>
+
+			<Fresh-Air>Timbo-Integrated-Farm</Fresh-Air>
+			<Fresh-Air>Makulilis-Peak</Fresh-Air>
+            <Fresh-Air>Luzon-Datum</Fresh-Air>
+
+			<Cave>Bathala-Cave</Cave>
+
+			<Camp-sight-Trip>Ino-Camping-Sight</Camp-sight-Trip>
+			<Camp-sight-Trip>La-Presa</Camp-sight-Trip>
+
+			<Falls>Hinulugang-Amerikano</Falls>
+			<Falls>Tabag-Falls</Falls>
+			
+			<Beaches>Dapdap-Beach</Beaches>
+			<Beaches>Gaspar-Beach</Beaches>
+			<Beaches>Poctoy-Beach</Beaches>
+
+			<Beach-Resorts>Flintstone-Beach-Resort</Beach-Resorts>
+			<Beach-Resorts>Wawies-Beach-Resort</Beach-Resorts>
+
+			<Restaurants>Ate-Brys-Smoothies-and-Snack-house</Restaurants>
+			<Restaurants>Dayo</Restaurants>
+
+			<Swimming-Pool-Resorts>Janagdong-Swimming-Pool</Swimming-Pool-Resorts>
+			<Swimming-Pool-Resorts>Marinduque-Hotspring</Swimming-Pool-Resorts>
+
+			<Sea-side-view>Balanacan-Port</Sea-side-view>
+
+            <Sunset-view>Along-the-Road</Sunset-view>
+			<Sunset-view>Ulong-Beach</Sunset-view>
+
+		</Albums>
+	</Photos>
+
+	<About>About-SantaCruizin'-Website</About>
+	<About>Other-information</About>
+	<About>Whats-inside</About>
+	<About>Visitors</About>
+
+	<Contact>Name</Contact>
+	<Contact>Position</Contact>
+</SantaCruizin>
